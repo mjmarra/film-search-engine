@@ -12,7 +12,12 @@ export default function Contact() {
 					<div className="form-row">
 						<div className="form-group col-md-6">
 							<label htmlFor="inputEmail4">Correo electrínico</label>
-							<input type="email" className="form-control" id="inputEmail4" />
+							<input
+								type="email"
+								className="form-control"
+								id="inputEmail4"
+								placeholder="Ingresar correo electrónico"
+							/>
 						</div>
 						<div className="form-group col-md-6">
 							<label htmlFor="inputPassword4">Contraseña</label>
@@ -20,6 +25,7 @@ export default function Contact() {
 								type="password"
 								className="form-control"
 								id="inputPassword4"
+								placeholder="Ingresar contraseña"
 							/>
 						</div>
 					</div>
@@ -44,11 +50,21 @@ export default function Contact() {
 					<div className="form-row">
 						<div className="form-group col-md-6">
 							<label htmlFor="inputCity">Ciudad</label>
-							<input type="text" className="form-control" id="inputCity" />
+							<input
+								type="text"
+								className="form-control"
+								id="inputCity"
+								placeholder="Ingresar ciudad"
+							/>
 						</div>
 						<div className="form-group col-md-2">
 							<label htmlFor="inputZip">Código postal</label>
-							<input type="text" className="form-control" id="inputZip" />
+							<input
+								type="text"
+								className="form-control"
+								id="inputZip"
+								placeholder="Código postal"
+							/>
 						</div>
 					</div>
 					<button type="submit" className="btn btn-outline-secondary mt-4">
